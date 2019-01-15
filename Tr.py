@@ -16,7 +16,7 @@ def ChristmasTreeBub(n):
     BubleCount = 1
     for i in range(0,n):
         for i in range(0,z):
-            print(' ')
+            print(' ',end='')
             if con == True:
                 y.append(Space)
         for i in range(0,x):
@@ -51,14 +51,15 @@ def ChristmasTreeBub(n):
 def _2Spooky4Me():
     skely = '\t▒▒▒░░░░░░░░░░▄▐░░░░\n\t▒░░░░░░▄▄▄░░▄██▄░░░\n\t░░░░░░▐▀█▀▌░░░░▀█▄░\n\t░░░░░░▐█▄█▌░░░░░░▀█▄\n\t░░░░░░░▀▄▀░░░▄▄▄▄▄▀▀\n\t░░░░░▄▄▄██▀▀▀▀░░░░░\n\t░░░░█▀▄▄▄█░▀▀░░░░░░\n\t░░░░▌░▄▄▄▐▌▀▀▀░░░░░\n\t░▄░▐░░░▄▄░█░▀▀░░░░░\n\t░▀█▌░░░▄░▀█▀░▀░░░░░\n\t░░░░░░░░▄▄▐▌▄▄░░░░░\n\t░░░░░░░░▀███▀█░▄░░░\n\t░░░░░░░▐▌▀▄▀▄▀▐▄░░░\n\t░░░░░░░▐▀░░░░░░▐▌░░\n\t░░░░░░░█░░░░░░░░█░░\n\t░░░░░░▐▌░░░░░░░░░█░\n'
 
-    print( '\t $ Zver je Zver $ \n' )
+    print( '\t $ Made by: $ \n' )
+    print( '\t $ - Urban Knuples $ \n' )
+    print( '\t $ - Zan Zver $ \n' )
     print( skely )
-    print( '\t $ Zver je Zver $ ' )
 
 
 
 def main():
     _2Spooky4Me()
-    
+    ChristmasTreeBub(20)
 
 if __name__ == '__main__': main()
